@@ -31,7 +31,7 @@ header {
 header > h1 {
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 5vw;
+    font-size: 6.5vw;
     font-weight: normal;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -39,7 +39,7 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 a {
@@ -56,8 +56,8 @@ section {
     font-family: var(--fonte3);
     font-size: 2.3vw;
     line-height: 2em;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
     font-weight: bold;
 }
