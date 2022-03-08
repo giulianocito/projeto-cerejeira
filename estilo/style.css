@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Anton', sans-serif;
+    --fonte3: 'Kalam', cursive;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(241, 59, 59, 0.664);
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    font-size: 5vw;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;  
+}
+
+section {
+    font-family: var(--fonte3);
+    font-size: 2.3vw;
+    line-height: 2em;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+section > p {
+    padding-right: 10px;
+    padding-bottom: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img1 {
+    background-image: url(../imagens/danca.jpeg);
+    background-position: right center;
+}
+
+#img2 {
+    background-image: url(../imagens/ciencia.jpg);
+    background-position: right center;
+}
+
+#img3 {
+    background-image: url(../imagens/cerejeira.jpg);
+    background-position: right center;
+}
+
+.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.548);
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
